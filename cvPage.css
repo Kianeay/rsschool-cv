@@ -1,0 +1,30 @@
+div {
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+img {
+    margin-left: 60px;
+    margin-right: 40px;
+    float: left;
+    margin-top: -0.625em;
+    
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+.contact {
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
