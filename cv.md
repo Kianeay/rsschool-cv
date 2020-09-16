@@ -4,7 +4,8 @@ Katsiaryna Chaban
 catthyrine@334gmail.com  
 Minsk, Belarus  
 -------  
-https://www.linkedin.com/
+https://www.linkedin.com/  
+https://www.viber.com/ru/
 
 I have a desire to improve my skills and grow professionally in Frontend.
 
