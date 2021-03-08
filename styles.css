@@ -1,12 +1,36 @@
 body {
   margin: 0;
   padding: 0;
- }
- .basic {
-     background-color: rgb(241, 238, 234);
- }
- .wrapper {
-     max-width: 1000px;
-     display: flex;
-     margin: 0 auto;
- }
+}
+.basic {
+  background-color: rgb(241, 238, 234);
+}
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.img-container {
+  padding: 40px 0;
+}
+
+.img-container > img:nth-child(1) {
+  object-fit: fill;
+  width: 200px;
+}
+.basic-info {
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+  align-content: center;
+  align-self: center;
+}
+.column {
+  display: flex;
+  justify-content: space-between;
+}
+.first-column {
+  width: 50%;
+}
+.sec-column {
+  width: 50%;
+}
