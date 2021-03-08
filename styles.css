@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: gainsboro;
+  font-family: 'Roboto', sans-serif;
+}
+
+.basic {
+  /* background-color: rgb(241, 238, 234); */
+  position: relative;
+}
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.img-container {
+  padding: 40px 0;
+  padding-left: 30px;
+}
+
+.img-container > img:nth-child(1) {
+  object-fit: fill;
+  width: 200px;
+}
+.basic-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  align-content: center;
+  align-self: center;
+  background-color: rgb(37, 35, 54);
+  color: white;
+  
+}
+.contacts {
+  width: 60%;
+  padding: 40px 0;
+  padding-left: 30px;
+ 
+ }
+ .contacts-info {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+ }
+ 
+ .contacts > h1:nth-child(1) {
+  font-size: 50px;
+ }
+ 
+/*  .basic::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(144, 135, 222);
+
+right: 0;
+top: 0;
+left: 2px;
+bottom: 0;
+ } */
+ 
+.column {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.first-column {
+  width: 50%;
+  padding-left: 30px;
+}
+.sec-column {
+  width: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+h2 {
+  text-transform: capitalize;
+}
+
+.column h2 {
+  color: rgb(74, 73, 83);
+ position: relative;
+ padding-bottom: 10px;
+}
+.column h2::after {
+content: '';
+position: absolute;
+border: solid rgb(74, 73, 83) 1px;
+left: 0;
+right: 359px;
+top: 40px;
+}
+.column p {
+  font-weight: 100;
+}
+h3 {
+  font-weight: normal;
+  color: rgb(107, 106, 112);
+}
+.skills ul {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-wrap: wrap;
+  list-style-type: square;
+  font-weight: 100;
+  }
+  .hobby-img {
+    display: flex;
+    justify-content: space-around;
+padding-top: 20px;
+   }
+   .hobby-img img {
+    width: 50px;
+height: 50px;
+transition: transform .2s;
+   }
+   .hobby-img img:hover {
+    transform: scale(1.5);
+   }
+   h2:hover {
+    color: rgb(106, 99, 168);
+    cursor: pointer;
+  }
