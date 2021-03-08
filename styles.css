@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+ }
+ .basic {
+     background-color: rgb(241, 238, 234);
+ }
+ .wrapper {
+     max-width: 1000px;
+     display: flex;
+     margin: 0 auto;
+ }
